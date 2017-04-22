@@ -39,6 +39,10 @@ public class Usuario {
     }
 
     public void anadirObjeto(Objeto o){
+        if (objetos==null)
+        {
+            objetos= new ArrayList<Objeto>();
+        }
         objetos.add(o);
     }
 
