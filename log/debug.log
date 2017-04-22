@@ -252,3 +252,17 @@
 2017-04-22 21:55:49 INFO  EtakemonManagerImpl:51 - RESULTADO: Usuario modificado: Josef antoine
 2017-04-22 21:55:55 INFO  EtakemonManagerImpl:56 - METODO: consultar información usuario: 1
 2017-04-22 21:55:55 INFO  EtakemonManagerImpl:61 - RESULTADO: Usuario [Id =1, Nombre=Josef antoine]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:40 - METODO: añadir usuario: Usuario [Id =0, Nombre=Mikel]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:44 - RESULTADO: Usuario añadido; Tamaño tabla usuarios: 1
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:40 - METODO: añadir usuario: Usuario [Id =0, Nombre=Aleix]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:44 - RESULTADO: Usuario añadido; Tamaño tabla usuarios: 2
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:40 - METODO: añadir usuario: Usuario [Id =0, Nombre=Jose]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:44 - RESULTADO: Usuario añadido; Tamaño tabla usuarios: 3
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:88 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:92 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Aleix; Objetos:1
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:88 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:92 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Aleix; Objetos:2
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:88 - METODO: añadir objeto: Objeto: [Bici]
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:92 - RESULTADO: Objeto añadido Objeto: [Bici]; Usuario: Aleix; Objetos:3
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:68 - METODO: obtener objetos
+2017-04-22 23:45:16 INFO  EtakemonManagerImpl:80 - RESULTADO: Usuario: Aleix; Objetos: Palo,Tijeras,Bici
