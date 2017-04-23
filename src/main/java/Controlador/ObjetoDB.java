@@ -8,9 +8,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Created by Guillem on 24/04/2017.
+ * Created by Guillem on 19/04/2017.
  */
-public class UsuarioDB extends EtakemonManagerDB{
+public class ObjetoDB extends EtakemonManagerDB {
     private static int lastId=-1;
 
 
@@ -38,7 +38,7 @@ public class UsuarioDB extends EtakemonManagerDB{
     }
 
     private void setLastId(int lastId) {
-        UsuarioDB.lastId = lastId;
+        ObjetoDB.lastId = lastId;
     }
 
     public void crear(){
@@ -68,5 +68,4 @@ public class UsuarioDB extends EtakemonManagerDB{
     public void buscarPorId(int id){
         select(id);
     }
-
 }
