@@ -9,6 +9,12 @@ import Modelo.Usuario;
 
 import org.junit.After;
 import org.junit.Before;
+
+import java.lang.reflect.Field;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 import static org.junit.Assert.*;
 
 public class Test {
@@ -47,4 +53,5 @@ public class Test {
         em.consultarInfUsuario(10);
         em.listarUsuariosAlf();
     }
+
 }
