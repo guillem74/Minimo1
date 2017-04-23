@@ -11,7 +11,7 @@ import java.util.List;
 
 
 public abstract class EtakemonManagerDB implements EtakemonManager{
-    //obtener la conexión con la base de datos
+
     protected Connection getConnection(){
         Connection conn=null;
         try
@@ -25,7 +25,7 @@ public abstract class EtakemonManagerDB implements EtakemonManager{
 
         return conn;
     }
-    //insertar en la base de datos
+
     protected void insert(){
         Connection con = getConnection();
         StringBuffer query = new StringBuffer("INSERT INTO ");
